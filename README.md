@@ -1,6 +1,9 @@
 # Solar System Explorer
 
 An interactive Flutter app for learning about our Solar System! Explore planets, learn fun facts, and discover scientific data about each celestial body.
+**Live Demo:** [solar-system-explorer.965226.online](https://solar-system-explorer.965226.online)
+### 📺 Project Demo Video
+https://github.com/user-attachments/assets/0d2698d2-78f6-4106-b596-a66e14a4bcc4
 
 ## Features
 
