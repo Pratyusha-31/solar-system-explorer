@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 15),
                   const Text(
-                    'Learn how gravity works by interacting with planets',
+                    'Explore the wonders of our solar system!',
                     style: TextStyle(fontSize: 22, color: Colors.white70),
                     textAlign: TextAlign.center,
                   ),
