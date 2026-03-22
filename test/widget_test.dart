@@ -7,8 +7,17 @@ void main() {
     tester.view.physicalSize = const Size(1200, 1000);
     tester.view.devicePixelRatio = 1.0;
     addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
 
     await tester.pumpWidget(const SolarSystemApp());
-    expect(find.text('Solar System Explorer'), findsOneWidget);
+    await tester.pumpAndSettle();
+
+    expect(
+      find.text(
+        'Mission-ready solar system exploration for the classroom.',
+      ),
+      findsOneWidget,
+    );
+    expect(find.text('Enter Mission Control'), findsOneWidget);
   });
 }

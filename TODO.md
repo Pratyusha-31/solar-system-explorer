@@ -1,8 +1,4 @@
-# Solar System Explorer: Fix Live Box Values Not Updating During Rotation - COMPLETE
+# Explorer Cleanup
 
-All steps implemented:
-- [x] Responsive layout and scaled live positions.
-- [x] Rotation handling with observer.
-- App now compiles and live box updates during device rotation/pan.
-
-Test with `flutter run`.
+- Solar Cinema / guided voice tour has been removed.
+- Home screen now routes only to Solar Explorer.
