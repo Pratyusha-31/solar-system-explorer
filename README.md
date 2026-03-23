@@ -2,7 +2,7 @@
 
 An interactive Flutter app for learning about our Solar System! Explore planets, learn fun facts, and discover scientific data about each celestial body.
 **Live Demo:** [solar-system-explorer.965226.online](https://solar-system-explorer.965226.online)
-**Watch Video Demo:** [YouTube Video Link](https://youtu.be/CX0bz3XLn1c)
+**Watch Video Demo:** [YouTube Video Link](https://youtu.be/nu_hD7qNRzo)
 
 ## Features
 
