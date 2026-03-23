@@ -368,7 +368,7 @@ class SolarSystemScreen extends StatefulWidget {
 
 class _SolarSystemScreenState extends State<SolarSystemScreen>
     with TickerProviderStateMixin, WidgetsBindingObserver {
-  static const String _backendUrl = 'http://localhost:5001';
+  static const String _backendUrl = 'http://localhost:5000';
 
   static const List<Planet> _planets = [
     Planet(
